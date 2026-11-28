@@ -1,0 +1,31 @@
+Format version: 2
+Seed: 3862263958
+RNG: std::mt19937; one continuous stream across board sizes
+Target unique tours: 100
+Board sizes: 6 to 14 step 2
+Mode: repair
+Maximum attempts per board: 1000000
+Backtracking node cutoff: 200000
+Warnsdorff probability: 0.80000000000000004
+Parameter tuning: not recorded; document separately
+Vertex encoding: zero-based row*n+column; cycles close implicitly
+Objective: removed surviving edges, then minimum locality radius at fixed cost
+Symmetry: cyclic rotation, reversal, eight board symmetries
+Compiler: 16.1.0
+C++ standard: 201703
+Build platform: Windows
+Hardware concurrency: 16
+Command: D:\Research Paper\tst.exe
+Gurobi version: 13.0.2
+Solver threads: 1
+Solver seed: 0
+MIPGap: 0
+MIPGapAbs: 0
+FeasibilityTol: 9.9999999999999995e-07
+IntFeasTol: 1.0000000000000001e-05
+OptimalityTol: 9.9999999999999995e-07
+TimeLimit: 1e+100
+LazyConstraints: 1
+DualReductions: 0
+Elapsed seconds: 39874.080030099998
+Run complete: 1
